@@ -1,0 +1,19 @@
+Sorting Algorithm - Selection Sort
+Two Types of Sorting :
+1.Sorted - Increasing (ascending)order
+  eg: 1,5,7,9,12,15
+2.Unsorted - Decreasing (descending)order
+  eg: 14,12,7,9,5,1
+
+# Purpose:
+Create a solution to sort the given(6,8,2,7,1,5,3) set of numbers either in ascending or descending order
+
+
+SELECTION SORTING:
+*Defines -- choosing the right element in the right position (first, second position)
+Problem:  [68,25,71,43,5]
+
+Step1 : Fixing the first value as a "i"
+Step2 : Comparing the Second value, if its lesser than first value
+Step3 : By denoting the elements via index and put it as "i+1".
+Step4 : Other than the first or current poisiton it can be named as "j"
