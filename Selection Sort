@@ -17,3 +17,12 @@ Step1 : Fixing the first value as a "i"
 Step2 : Comparing the Second value, if its lesser than first value
 Step3 : By denoting the elements via index and put it as "i+1".
 Step4 : Other than the first or current poisiton it can be named as "j"
+
+Algorithm : checking and reacting wheather the index 0 element is suitable for that position. 
+            If not the algorithm should find the smallest element in the same array.
+            Then it should swap with that element. 
+
+The process goes on until the algorithm couldn't find the smallest element than the current element.
+
+Code Methodology:
+  If the current element need to compare each and every value in the element then we should apply *Nested for loop*
