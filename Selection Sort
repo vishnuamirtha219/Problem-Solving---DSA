@@ -26,3 +26,29 @@ The process goes on until the algorithm couldn't find the smallest element than 
 
 Code Methodology:
   If the current element need to compare each and every value in the element then we should apply *Nested for loop*
+
+Nested for loop :
+for(position of 0th index to travel at the end eg: 68 need to travel till 5)
+  {
+    for(the loop rotation changes)
+      {
+      }
+  }
+
+Program:
+
+int minidx = 0;
+for (int i=0;i<=size-2;i++) # total element 5 - the swap position of 68 which is 3
+  {  
+    minidx = i
+    for(int z=i+1;z<=size-1; z++) # the loop count is -1
+    {
+        if(arr[minidx]>arr[z])
+        {
+            minidx = z;
+        }
+   if(minidx != i)
+  {
+    swap(arr[minidx],arr[5])
+    }
+  }
