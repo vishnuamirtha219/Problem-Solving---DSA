@@ -1,5 +1,5 @@
 BINARY SEARCH ALGORITHM
-
+ 
 1. Fasted algorithm with time complexity of  O(logn).
 2. Imply only for sorted collection of data.
 3. Works on the principle of divide and conquer, as it divides the array into half before searching. 
