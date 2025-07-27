@@ -1,0 +1,35 @@
+BINARY SEARCH ALGORITHM
+
+1. Fasted algorithm with time complexity of  O(logn).
+2. Imply only for sorted collection of data.
+3. Works on the principle of divide and conquer, as it divides the array into half before searching. 
+4. Search for a particular key value by comparing the middle most item of the collection.
+5. Can be implemented in different programming languages, both iteratively and recursively.
+
+Types of searches in Binary Search :
+I. Initially it finds the mid_value 
+      mid_value = (left most value + right most value)/2
+II. If the search item is larger than the mid_value then the search starts from right part of the search collection.
+III.If the search item is smaller than the mid_value then the search starts from left part of the search collection.
+IV. Viceversa for descending sorted items.
+
+Example:
+  There is a array of 5 elements [1,2,3,4,5]
+  This is a sorted array in ascending order.
+
+  Finding mid_value:
+    Left most element = 5
+    Right most element = 1
+  
+    (5+1)/2 = 3
+
+  Search element = 4
+  
+    So the alogrithm works like 3 is smaller than the search item 4 , then it searches only in the right sub array.
+    It repeat its work untill the search item found or the left most element(L) is larger than the right most element(R).
+  
+  Note: If we need to search "7" which is not in the array then, the search L & R, loop becomes L>R . 
+        If it becomes then the search complete and shows "7" is not in the list.
+
+Program contains:
+  class > function > Variables > Loop(For/While) > if Condition > return
