@@ -1,0 +1,19 @@
+Definition:
+  # Bubble Sort is a simple comparison-based sorting algorithm where adjacent elements are repeatedly 
+compared and swapped if they are in the wrong order. 
+  # With each pass, the largest element "bubbles up" 
+to its correct position at the end of the array. This process continues until the entire array is sorted.
+
+Complexity Analysis of Bubble Sort:
+Time Complexity: O(n2)
+Auxiliary Space: O(1)
+
+Example: There are 4 elements in the array,
+  We need to sort that in a way that should be arranged in some sort of order(ascending)
+
+Create 2 loops :
+  #Outer loop = The arr entry pass and the parameter range
+  #Inner loop = The range of iteration after every pass  
+                The condition of i+1 larger/smaller
+                The swapping task
+Finally, print the arr 
