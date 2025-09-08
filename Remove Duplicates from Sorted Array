@@ -1,0 +1,14 @@
+class Solution:
+    def deleteDuplicates(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        hashmap={}
+        if head is None:
+            return
+        cur=head
+        hashmap[cur.val]=1
+        while cur.next:
+            if cur.next.val in hashmap:
+                cur.next=cur.next.next
+            else:
+                hashmap[cur.next.val]=1
+                cur=cur.next
+        return head
